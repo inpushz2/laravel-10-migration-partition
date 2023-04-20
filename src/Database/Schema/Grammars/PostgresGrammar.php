@@ -21,7 +21,7 @@ class PostgresGrammar extends IlluminatePostgresGrammar
             $this->wrapTable($blueprint),
             sprintf('%s, %s', implode(', ', $this->getColumns($blueprint)), sprintf('primary key (%s, %s)', $blueprint->pkCompositeOne, $blueprint->pkCompositeTwo)),
             $blueprint->rangeKey
-        )], $this->compileAutoIncrementStartingValues($blueprint))));
+        )])));
     }
 
     /**
@@ -39,7 +39,7 @@ class PostgresGrammar extends IlluminatePostgresGrammar
             str_replace("\"", "", $this->wrapTable($blueprint)),
             $blueprint->startDate,
             $blueprint->endDate
-        )], $this->compileAutoIncrementStartingValues($blueprint))));
+        )])));
     }
 
     /**
@@ -121,7 +121,7 @@ class PostgresGrammar extends IlluminatePostgresGrammar
             $this->wrapTable($blueprint),
             sprintf('%s, %s', implode(', ', $this->getColumns($blueprint)), sprintf('primary key (%s, %s)', $blueprint->pkCompositeOne, $blueprint->pkCompositeTwo)),
             $blueprint->hashPartitionKey
-        )], $this->compileAutoIncrementStartingValues($blueprint))));
+        )])));
     }
 
     /**
