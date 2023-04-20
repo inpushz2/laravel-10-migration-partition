@@ -1,6 +1,6 @@
 <?php
 
-namespace ORPTech\MigrationPartition\Database\Schema;
+namespace Inpushz2\MigrationPartition\Database\Schema;
 
 use Illuminate\Database\Schema\Blueprint as IlluminateBlueprint;
 
