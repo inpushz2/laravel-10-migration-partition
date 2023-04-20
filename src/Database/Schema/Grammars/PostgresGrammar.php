@@ -1,9 +1,9 @@
 <?php
 
-namespace ORPTech\MigrationPartition\Database\Schema\Grammars;
+namespace Inpushz2\MigrationPartition\Database\Schema\Grammars;
 
 use Illuminate\Support\Fluent;
-use ORPTech\MigrationPartition\Database\Schema\Blueprint;
+use Inpushz2\MigrationPartition\Database\Schema\Blueprint;
 use \Illuminate\Database\Schema\Grammars\PostgresGrammar as IlluminatePostgresGrammar;
 
 class PostgresGrammar extends IlluminatePostgresGrammar
