@@ -1,5 +1,5 @@
 {
-    "name": "orptech/laravel-migration-partition",
+    "name": "inpushz2/laravel-10-migration-partition",
     "description": "Laravel extensions for creating migrations with partitions.",
     "keywords": [
         "ORPTech",
