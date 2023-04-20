@@ -1,13 +1,13 @@
 <?php
 
-namespace ORPTech\MigrationPartition;
+namespace Inpushz2\MigrationPartition;
 
-use ORPTech\MigrationPartition\Commands\InitHashPartitionCommand;
-use ORPTech\MigrationPartition\Commands\InitListPartitionCommand;
+use Inpushz2\MigrationPartition\Commands\InitHashPartitionCommand;
+use Inpushz2\MigrationPartition\Commands\InitListPartitionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ORPTech\MigrationPartition\Commands\InitRangePartitionCommand;
-use ORPTech\MigrationPartition\Commands\ListTablePartitionsCommand;
+use Inpushz2\MigrationPartition\Commands\InitRangePartitionCommand;
+use Inpushz2\MigrationPartition\Commands\ListTablePartitionsCommand;
 
 class MigrationPartitionServiceProvider extends PackageServiceProvider
 {
