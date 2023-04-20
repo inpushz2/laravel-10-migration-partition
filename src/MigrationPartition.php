@@ -1,6 +1,6 @@
 <?php
 
-namespace ORPTech\MigrationPartition;
+namespace Inpushz2\MigrationPartition;
 
 class MigrationPartition
 {
