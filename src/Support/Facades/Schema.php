@@ -1,9 +1,9 @@
 <?php
 
-namespace ORPTech\MigrationPartition\Support\Facades;
+namespace Inpushz2\MigrationPartition\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use ORPTech\MigrationPartition\Database\Schema\Builder;
+use Inpushz2\MigrationPartition\Database\Schema\Builder;
 use RuntimeException;
 
 /**
