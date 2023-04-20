@@ -1,12 +1,12 @@
 <?php
 
-namespace ORPTech\MigrationPartition\Database\Schema;
+namespace Inpushz2\MigrationPartition\Database\Schema;
 
 use Closure;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Database\Connection;
-use ORPTech\MigrationPartition\Database\Schema\Grammars\PostgresGrammar;
+use Inpushz2\MigrationPartition\Database\Schema\Grammars\PostgresGrammar;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Schema\Builder as IlluminateBuilder;
 
