@@ -18,7 +18,7 @@ We are ORPTech. Here at ORPTech, we pride ourselves in ensuring that clients and
 You can install the package via composer:
 
 ```bash
-composer require orptech/laravel-migration-partition
+composer require orptech/laravel-10-migration-partition
 ```
 
 ## DBMS Support
