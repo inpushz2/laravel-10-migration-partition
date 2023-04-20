@@ -1,11 +1,11 @@
 <?php
 
-namespace ORPTech\MigrationPartition\Commands;
+namespace Inpushz2\MigrationPartition\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Pluralizer;
-use ORPTech\MigrationPartition\Support\Facades\Schema;
+use Inpushz2\MigrationPartition\Support\Facades\Schema;
 
 class InitListPartitionCommand extends Command
 {
